@@ -5,7 +5,7 @@
 ## git merge <branchName to be merge in current branch> - to merge a branch
 ## git checkout <branchName to go inside that branch>- to change the branch
 ## git add <fileName to be to staged> - to stage single file 
-## git add --all OR git add.  - to stage all file
+## git add --all OR git add .  - to stage all file
 ## git commit -m "message" - to commit all changes 
 ## git log --oneline - it prints all the commits with their commit id 
 ## git reset <commitId> - it go to given commit id and then removes all the commits after that commit( it remove all the changes made after that commit)
