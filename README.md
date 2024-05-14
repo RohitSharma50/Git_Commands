@@ -19,7 +19,7 @@
 
 
 
-## To Update an existing project already deployed on github 
+## To Update an existing project already deployed on github ✅
 ## git init
  ## git add .
 ## git commit -m 'Added my project'
