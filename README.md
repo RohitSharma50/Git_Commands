@@ -20,8 +20,7 @@
 
 
 ## To Update an existing project already deployed on github 
-git init
-git add .
-git commit -m 'Added my project'
-
-git push 
+## git init
+ ## git add .
+## git commit -m 'Added my project'
+## git push 
