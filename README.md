@@ -25,4 +25,10 @@
 
 
 
-
+#
+# 
+# How to update an existing repo on github
+### go to repo
+### git add .
+### git commit -m "commit message here" Enter
+### git push origin main Enter
