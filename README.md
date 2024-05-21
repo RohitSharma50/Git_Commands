@@ -12,9 +12,15 @@
 ## git revert <commitId> - it switches to just previous commit and add another required commit to that previous commit while keeping connected to latest commit
 ## git push-- to push the repo     
 
-
-
-
+# 
+# 
+# to upload a folder of prebuilt project from local to github on master branch 
+### cd path/to/your/project
+### git init
+### git remote add origin https://github.com/yourusername/your-repository-name.git
+### git add .
+### git commit -m "Initial commit"
+### git push -u origin master
 
 
 
