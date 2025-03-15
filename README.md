@@ -29,7 +29,7 @@
     ✅ How it works?
 
     Limits function execution to once every delay milliseconds.
-   Prevents too many function calls while scrolling.
+    Prevents too many function calls while scrolling.
 
 
 
