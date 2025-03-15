@@ -31,6 +31,20 @@
     Limits function execution to once every delay milliseconds.
     Prevents too many function calls while scrolling.
 
+# how to iplement throttle function in infinite scrolling 
+    useEffect(() => {
+    const handleScroll = throttle(() => {
+      if (
+        window.innerHeight + document.documentElement.scrollTop >= 
+        document.documentElement.offsetHeight - 10
+      ) {
+        setPage((prevPage) => prevPage + 1);
+      }
+    }, 500); // Only trigger once every 500ms
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
 
 
