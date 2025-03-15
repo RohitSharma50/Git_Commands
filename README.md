@@ -1,3 +1,27 @@
+
+## how to create an array of size n that contain element from 1 to n 
+     const a = Array.from({ length: n }, (_, index) => index + 1);
+
+## how to show and hide some thing according to conditions
+     
+      {Boolean(page) && <button>◀️</button>} 
+      // here we have converted the value of page to boolen if its true the it will show the button else it will hide
+
+## Explanation of the Scroll Condition
+ 
+     window.innerHeight + document.documentElement.scrollTop >= 
+     document.documentElement.offsetHeight - 10  // Load more 10px before hitting bottom
+     window.innerHeight == This gives the height of the visible part of the window
+     document.documentElement.scrollTop == This gives the number of pixels scrolled from the top
+     document.documentElement.offsetHeight == This gives the total height of the page (including content that is not currently visible)
+     Why -10? == The -10 is a small buffer to ensure the request is made just before hitting the bottom, improving responsiveness.
+
+
+
+
+
+
+
 ## git log - to check all commits
 ## git branch - to check all branches present in project
 ## git branch <branchName> - to create new branch
