@@ -16,6 +16,20 @@
      document.documentElement.offsetHeight == This gives the total height of the page (including content that is not currently visible)
      Why -10? == The -10 is a small buffer to ensure the request is made just before hitting the bottom, improving responsiveness.
 
+## Throttle Function Implementation
+
+    const throttle = (func, delay) => {
+    let lastCall = 0;
+    return (...args) => {
+    const now = new Date().getTime();
+    if (now - lastCall >= delay) {
+      lastCall = now;
+      func(...args);  }};
+    };
+    ✅ How it works?
+
+    Limits function execution to once every delay milliseconds.
+   Prevents too many function calls while scrolling.
 
 
 
